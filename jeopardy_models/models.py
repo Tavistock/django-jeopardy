@@ -22,9 +22,9 @@ class Category(models.Model):
     name = models.CharField(max_length=500)
     game_round = models.ForeignKey(GameRound)
 
-### catagory (unique for value in catagory)
 class Question(models.Model):
-    value = models.CharField(max_length)
+    daily_double = models.BooleanField()
+    value = models.IntegerField()
     question = models.CharField(max_length=1000)
     answer = models.CharField(max_length=1000)
     catagory = models.ForeignKey(Category)

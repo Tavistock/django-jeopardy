@@ -5,3 +5,9 @@ django-toolbelt==0.0.1
 gunicorn==19.3.0
 psycopg2==2.6.1
 static3==0.6.1
+
+# scrapy
+cffi==1.1.2
+Scrapy==1.0.1
+scrapy-heroku==0.7.1
+scrapyd==1.1.0
