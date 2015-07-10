@@ -1,7 +1,7 @@
 from django.db import models
 
 class Season(models.Model):
-    title = models.CharField(max_lenth=500)
+    title = models.CharField(max_length=500)
     start = models.DateField()
     end = models.DateField()
 
